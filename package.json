@@ -20,7 +20,7 @@
   "license": "PROPRIETARY",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dedsec0ps/cyber-month-2025.git"
+    "url": "git+https://github.com/Dedsec0ps/housing.git"
   },
   "homepage": "https://cyber-month-2025.netlify.app",
   "devDependencies": {},
