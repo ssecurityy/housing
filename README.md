@@ -51,7 +51,7 @@ Visit: [Your Netlify URL will go here]
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Dedsec0ps/housing.git
+git clone https://github.com/ssecurityy/housing.git
 cd housing
 ```
 
