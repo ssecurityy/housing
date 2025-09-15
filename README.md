@@ -51,7 +51,7 @@ Visit: [Your Netlify URL will go here]
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cyber-month-2025.git
+git clone https://github.com/Dedsec0ps/cyber-month-2025.git
 cd cyber-month-2025
 ```
 
