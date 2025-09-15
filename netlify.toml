@@ -3,6 +3,7 @@
 [build]
   # No build command needed for static site
   publish = "."
+  command = ""
 
 [[headers]]
   for = "/*"
