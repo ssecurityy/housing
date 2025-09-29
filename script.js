@@ -359,6 +359,26 @@ const cyberTips = {
             joke: "🤣 A product manager walks into a bar. Asks for a beer. Asks for 0 beers. Asks for 999999999 beers. Asks for -1 beers. Asks for a lizard.",
             tip: "💡 Pro Tip: Create a security checklist template for all new features - consistency is key!",
             shortcut: "⚡ Shortcut: Use JIRA filters to quickly find security-related tickets: 'labels = security'"
+        },
+        {
+            department: "Security Operations Center",
+            icon: "fas fa-shield-alt",
+            title: "Incident Detection & Response",
+            description: "Monitor security events 24/7, establish clear escalation procedures, and maintain incident response playbooks. Quick detection saves millions!",
+            action: "✅ Action: Review and update incident response procedures quarterly.",
+            joke: "🤣 Security alert at 3 AM: 'It's probably nothing...' Narrator: 'It was definitely something.'",
+            tip: "💡 Pro Tip: Create automation rules for common false positives to reduce alert fatigue!",
+            shortcut: "⚡ Shortcut: Use SOAR platforms to automate repetitive security tasks and responses!"
+        },
+        {
+            department: "Application Security",
+            icon: "fas fa-lock",
+            title: "OWASP Top 10 Prevention",
+            description: "Master the OWASP Top 10 vulnerabilities and implement preventive measures. Focus on injection attacks, broken authentication, and XSS prevention.",
+            action: "✅ Action: Conduct OWASP-based security assessments for all applications.",
+            joke: "🤣 Developer: 'I fixed the SQL injection!' Hacker: 'Great, now let me try NoSQL injection!'",
+            tip: "💡 Pro Tip: Use security headers like CSP, X-Frame-Options, and HSTS to add defense layers!",
+            shortcut: "⚡ Shortcut: SecurityHeaders.com - instantly check your website's security headers!"
         }
     ],
     day2: [
@@ -391,6 +411,26 @@ const cyberTips = {
             joke: "🤣 QA Engineer walks into a bar. Orders 1 beer. Orders 0 beers. Orders 999999999 beers. Orders -1 beers. Orders a lizard.",
             tip: "💡 Pro Tip: Use OWASP ZAP for automated security testing - it's free and catches common vulnerabilities!",
             shortcut: "⚡ Shortcut: Burp Suite's Intruder tool can automate testing for injection vulnerabilities!"
+        },
+        {
+            department: "Email Security",
+            icon: "fas fa-envelope-shield",
+            title: "Email Authentication Protocols",
+            description: "Implement SPF, DKIM, and DMARC to prevent email spoofing and phishing. Protect your domain reputation and customer trust.",
+            action: "✅ Action: Configure SPF, DKIM, and DMARC records for all company domains.",
+            joke: "🤣 Phisher: 'I sent from your domain!' DMARC: 'Nice try, but I'm gonna stop you right there.'",
+            tip: "💡 Pro Tip: Start DMARC with p=none, monitor for a month, then move to p=quarantine!",
+            shortcut: "⚡ Shortcut: MXToolbox.com - check your email authentication setup in seconds!"
+        },
+        {
+            department: "Identity & Access Management",
+            icon: "fas fa-id-badge",
+            title: "Zero Trust Architecture",
+            description: "Never trust, always verify. Implement least privilege access, continuous verification, and assume breach mentality in your security design.",
+            action: "✅ Action: Audit all user permissions and implement role-based access control (RBAC).",
+            joke: "🤣 'But I've worked here for 10 years!' Zero Trust: 'That's nice, please authenticate again.'",
+            tip: "💡 Pro Tip: Use Just-In-Time (JIT) access for administrative privileges - grant only when needed!",
+            shortcut: "⚡ Shortcut: Azure AD Privileged Identity Management automates JIT access controls!"
         }
     ],
     day3: [
@@ -423,6 +463,26 @@ const cyberTips = {
             joke: "🤣 Mobile Dev: 'It works on my phone!' Security: 'Great, now try it on a rooted device with a proxy!'",
             tip: "💡 Pro Tip: Use Android Keystore and iOS Keychain for secure credential storage, never SharedPreferences!",
             shortcut: "⚡ Shortcut: Use react-native-keychain for cross-platform secure storage in React Native!"
+        },
+        {
+            department: "Penetration Testing",
+            icon: "fas fa-user-ninja",
+            title: "Ethical Hacking Essentials",
+            description: "Think like an attacker to defend better. Regular penetration testing reveals vulnerabilities before malicious actors find them.",
+            action: "✅ Action: Schedule quarterly penetration tests and fix critical findings immediately.",
+            joke: "🤣 Pentester: 'I'm in!' Developer: 'But that's impossible!' Pentester: 'You left debug mode on in production.'",
+            tip: "💡 Pro Tip: Always get written authorization before testing - unauthorized testing is illegal hacking!",
+            shortcut: "⚡ Shortcut: Metasploit's 'db_nmap' combines scanning with automatic vulnerability detection!"
+        },
+        {
+            department: "Blockchain Security",
+            icon: "fas fa-cube",
+            title: "Smart Contract Security",
+            description: "Audit smart contracts for reentrancy attacks, integer overflows, and access control issues. Once deployed, bugs become permanent!",
+            action: "✅ Action: Use automated tools like Mythril and manual audits before mainnet deployment.",
+            joke: "🤣 'Code is law!' they said. 'What could go wrong?' asked the $50M hack.",
+            tip: "💡 Pro Tip: Use OpenZeppelin's audited libraries instead of writing security features from scratch!",
+            shortcut: "⚡ Shortcut: 'slither .' runs comprehensive smart contract security analysis in one command!"
         }
     ],
     day4: [
@@ -455,6 +515,26 @@ const cyberTips = {
             joke: "🤣 SRE: 'Everything is monitored!' Also SRE: 'Why didn't we get alerted about that breach?'",
             tip: "💡 Pro Tip: Set up anomaly detection with ML - unusual patterns often indicate security incidents!",
             shortcut: "⚡ Shortcut: Prometheus + Grafana + AlertManager = Your security monitoring trinity!"
+        },
+        {
+            department: "Threat Intelligence",
+            icon: "fas fa-brain",
+            title: "Proactive Threat Hunting",
+            description: "Don't wait for alerts - actively hunt for threats in your environment. Use threat intelligence feeds to stay ahead of emerging attacks.",
+            action: "✅ Action: Subscribe to threat intelligence feeds and conduct weekly threat hunting exercises.",
+            joke: "🤣 'No news is good news!' Threat Hunter: 'No news means your monitoring is broken.'",
+            tip: "💡 Pro Tip: Use MITRE ATT&CK framework to map and hunt for specific adversary techniques!",
+            shortcut: "⚡ Shortcut: TheHive + Cortex = Automated threat intelligence and incident response platform!"
+        },
+        {
+            department: "Vulnerability Management",
+            icon: "fas fa-bug-slash",
+            title: "Patch Management Strategy",
+            description: "Timely patching prevents 85% of successful attacks. Establish patch cycles, test thoroughly, and prioritize critical vulnerabilities.",
+            action: "✅ Action: Implement automated vulnerability scanning and establish SLAs for patching.",
+            joke: "🤣 'We'll patch it next quarter!' Ransomware: 'Thanks for the advance notice!'",
+            tip: "💡 Pro Tip: Use CVSS scores combined with threat intelligence to prioritize patching efforts!",
+            shortcut: "⚡ Shortcut: Qualys VMDR or Rapid7 InsightVM for continuous vulnerability assessment!"
         }
     ],
     day5: [
@@ -487,6 +567,26 @@ const cyberTips = {
             joke: "🤣 Finance: 'We saved money by building our own payment system!' Security: 'You mean you built your own vulnerabilities?'",
             tip: "💡 Pro Tip: Never store credit card numbers - use tokenization services like Stripe or Square!",
             shortcut: "⚡ Shortcut: PCI DSS Quick Reference Guide - focus on the 12 requirements first!"
+        },
+        {
+            department: "Physical Security",
+            icon: "fas fa-building-lock",
+            title: "Office & Data Center Security",
+            description: "Digital security starts with physical security. Implement access controls, CCTV monitoring, and secure disposal of hardware.",
+            action: "✅ Action: Audit physical access logs and implement visitor management systems.",
+            joke: "🤣 'Our servers are secure!' Meanwhile: The server room door is propped open with a fire extinguisher.",
+            tip: "💡 Pro Tip: Use RFID badges with anti-cloning features and require PIN codes for sensitive areas!",
+            shortcut: "⚡ Shortcut: Implement clean desk policy - sensitive documents should never be left unattended!"
+        },
+        {
+            department: "Insider Threat Detection",
+            icon: "fas fa-user-secret",
+            title: "Behavioral Analytics",
+            description: "Monitor for unusual user behavior patterns. Most data breaches involve insider threats, whether malicious or accidental.",
+            action: "✅ Action: Implement User and Entity Behavior Analytics (UEBA) solutions.",
+            joke: "🤣 'But they passed the background check!' Security: 'That was before they got that gambling debt.'",
+            tip: "💡 Pro Tip: Watch for off-hours access, large data downloads, and access to systems outside job role!",
+            shortcut: "⚡ Shortcut: Splunk UBA or Microsoft Sentinel can automatically detect anomalous behavior patterns!"
         }
     ],
     day6: [
@@ -519,6 +619,26 @@ const cyberTips = {
             joke: "🤣 BI Analyst: 'I found an interesting pattern!' Security: 'Is that pattern someone's SSN?'",
             tip: "💡 Pro Tip: Implement row-level security in your BI tools - not everyone needs to see everything!",
             shortcut: "⚡ Shortcut: Power BI RLS (Row-Level Security) can be set up with simple DAX expressions!"
+        },
+        {
+            department: "Supply Chain Security",
+            icon: "fas fa-truck",
+            title: "Third-Party Risk Management",
+            description: "Your security is only as strong as your weakest vendor. Assess supplier security, monitor software dependencies, and verify component integrity.",
+            action: "✅ Action: Conduct security assessments of all critical vendors and suppliers.",
+            joke: "🤣 'It's from a trusted source!' SolarWinds hack: 'Allow me to introduce myself.'",
+            tip: "💡 Pro Tip: Use Software Bill of Materials (SBOM) to track all components and their vulnerabilities!",
+            shortcut: "⚡ Shortcut: 'npm audit' and 'pip-audit' quickly check for vulnerable dependencies!"
+        },
+        {
+            department: "Disaster Recovery",
+            icon: "fas fa-fire-extinguisher",
+            title: "Business Continuity Planning",
+            description: "Hope for the best, plan for the worst. Regular backups, tested recovery procedures, and redundant systems save businesses.",
+            action: "✅ Action: Test disaster recovery procedures quarterly and update runbooks.",
+            joke: "🤣 'We have backups!' DR Test: 'Great! Now try restoring from them... Oh, they're corrupted?'",
+            tip: "💡 Pro Tip: Follow the 3-2-1 backup rule: 3 copies, 2 different media types, 1 offsite!",
+            shortcut: "⚡ Shortcut: Automate backup testing with restoration scripts - untested backups are just prayers!"
         }
     ],
     day7: [
@@ -551,6 +671,26 @@ const cyberTips = {
             joke: "🤣 CEO: 'Why do we need security budget?' CISO: 'Why do you need insurance?'",
             tip: "💡 Pro Tip: Security ROI = (Risk Reduction x Asset Value) - Security Investment. Do the math!",
             shortcut: "⚡ Shortcut: NIST Cybersecurity Framework provides executive-level security metrics!"
+        },
+        {
+            department: "IoT Security",
+            icon: "fas fa-wifi",
+            title: "Internet of Things Protection",
+            description: "Secure smart devices, implement network segmentation for IoT, and regularly update firmware. Each device is a potential entry point!",
+            action: "✅ Action: Create IoT device inventory and implement separate network segments.",
+            joke: "🤣 'My toaster is smart!' Hacker: 'Smart enough to join my botnet army!'",
+            tip: "💡 Pro Tip: Change default passwords on ALL IoT devices - Shodan.io finds them in seconds!",
+            shortcut: "⚡ Shortcut: Use VLANs to isolate IoT devices from critical business networks!"
+        },
+        {
+            department: "Encryption Services",
+            icon: "fas fa-key",
+            title: "Cryptographic Key Management",
+            description: "Proper key management is crucial. Rotate keys regularly, use hardware security modules (HSMs), and never hardcode secrets.",
+            action: "✅ Action: Implement centralized key management system and rotation policies.",
+            joke: "🤣 'I encrypted everything!' Also Dev: 'The key? It's in the same database.'",
+            tip: "💡 Pro Tip: Use envelope encryption - encrypt your data keys with master keys stored in KMS!",
+            shortcut: "⚡ Shortcut: HashiCorp Vault provides enterprise-grade secret management with audit trails!"
         }
     ],
     day8: [
@@ -583,6 +723,26 @@ const cyberTips = {
             joke: "🤣 SysAdmin: 'I disabled the firewall to fix the issue!' Security: 'You've become the issue!'",
             tip: "💡 Pro Tip: Use configuration management tools like Ansible to ensure consistent security settings!",
             shortcut: "⚡ Shortcut: 'fail2ban' automatically blocks IPs after failed login attempts - install it everywhere!"
+        },
+        {
+            department: "Security Architecture",
+            icon: "fas fa-project-diagram",
+            title: "Defense in Depth Strategy",
+            description: "Layer your security controls like an onion. Multiple barriers mean attackers must breach several defenses, not just one.",
+            action: "✅ Action: Map current security controls and identify single points of failure.",
+            joke: "🤣 'We have a firewall!' Attacker: 'Cool, I'll just use port 443 like everyone else.'",
+            tip: "💡 Pro Tip: Combine preventive, detective, and corrective controls at each layer!",
+            shortcut: "⚡ Shortcut: Use the SABSA framework to align security architecture with business needs!"
+        },
+        {
+            department: "Forensics & Investigation",
+            icon: "fas fa-fingerprint",
+            title: "Digital Evidence Collection",
+            description: "Proper evidence handling can make or break legal cases. Maintain chain of custody, use write-blockers, and document everything.",
+            action: "✅ Action: Create incident response evidence collection procedures and train the team.",
+            joke: "🤣 'I fixed the compromised server!' Legal: 'You mean you destroyed all the evidence?'",
+            tip: "💡 Pro Tip: Always work on forensic copies, never the original evidence!",
+            shortcut: "⚡ Shortcut: 'dd' command creates bit-for-bit copies, but use FTK Imager for legal admissibility!"
         }
     ],
     day9: [
@@ -615,6 +775,26 @@ const cyberTips = {
             joke: "🤣 Auditor: 'Show me your security documentation!' IT: 'It's secure... somewhere in SharePoint!'",
             tip: "💡 Pro Tip: Automate evidence collection - screenshots and manual logs won't scale!",
             shortcut: "⚡ Shortcut: Use AWS Config or Azure Policy for continuous compliance monitoring!"
+        },
+        {
+            department: "Red Team Operations",
+            icon: "fas fa-user-ninja",
+            title: "Adversarial Simulation",
+            description: "Think like an attacker to find weaknesses before they do. Red team exercises reveal blind spots in your defenses.",
+            action: "✅ Action: Schedule annual red team exercises and purple team collaboration sessions.",
+            joke: "🤣 Blue Team: 'We're secure!' Red Team: 'We're already in your network, check Slack.'",
+            tip: "💡 Pro Tip: Document everything during red team ops - your tactics help blue team improve!",
+            shortcut: "⚡ Shortcut: Cobalt Strike + BloodHound = Active Directory compromise in minutes!"
+        },
+        {
+            department: "Security Automation",
+            icon: "fas fa-robot",
+            title: "SOAR Implementation",
+            description: "Automate repetitive security tasks. Let machines handle the mundane so humans can focus on complex threats.",
+            action: "✅ Action: Identify top 5 repetitive tasks and create automation playbooks.",
+            joke: "🤣 'We'll automate security!' Also: 'Why did the bot just block the CEO?'",
+            tip: "💡 Pro Tip: Start small - automate one process perfectly before expanding!",
+            shortcut: "⚡ Shortcut: Phantom/Splunk SOAR has pre-built playbooks for common security workflows!"
         }
     ],
     day10: [
@@ -647,6 +827,26 @@ const cyberTips = {
             joke: "🤣 During breach: 'Who's in charge?' Everyone: 'Not it!' Hacker: 'Thanks for the chaos!'",
             tip: "💡 Pro Tip: The first hour of incident response determines the next month of cleanup - prepare!",
             shortcut: "⚡ Shortcut: RACI matrix for incidents - who's Responsible, Accountable, Consulted, Informed!"
+        },
+        {
+            department: "Security Champions",
+            icon: "fas fa-medal",
+            title: "Building Security Advocates",
+            description: "Create security champions in every team. These advocates bridge the gap between security and business operations.",
+            action: "✅ Action: Identify and train security champions with specialized workshops and certifications.",
+            joke: "🤣 'I'm not a security expert!' Champion program: 'Not yet, but you will be!'",
+            tip: "💡 Pro Tip: Empower champions with direct access to security team and decision-making authority!",
+            shortcut: "⚡ Shortcut: Monthly champion meetings + dedicated Slack channel = effective security culture!"
+        },
+        {
+            department: "Future of Security",
+            icon: "fas fa-rocket",
+            title: "AI & Machine Learning Security",
+            description: "The future is AI-powered threats and defenses. Understand model poisoning, adversarial attacks, and AI-enhanced security tools.",
+            action: "✅ Action: Explore AI security tools and understand AI-specific threat vectors.",
+            joke: "🤣 'AI will solve security!' AI: 'I've learned from your data... including the breaches.'",
+            tip: "💡 Pro Tip: Use AI for anomaly detection but always keep humans in the decision loop!",
+            shortcut: "⚡ Shortcut: TensorFlow Privacy library helps implement differential privacy in ML models!"
         }
     ]
 };
@@ -1492,12 +1692,24 @@ function showTipsOverlay() {
     // Show day selector initially
     showDaySelector();
     
-    // Auto-hide day selector after 5 seconds in TV mode
+    // Keep day selector visible for 10 seconds to allow selection
     setTimeout(() => {
-        hideDaySelector();
-        updateTipsContent();
-        startTipsAutoShuffle();
-    }, 5000);
+        // Show a reminder animation before hiding
+        const selector = document.getElementById('daySelector');
+        if (selector) {
+            selector.style.animation = 'selectorReminder 1s ease';
+            setTimeout(() => {
+                hideDaySelector();
+                updateTipsContent();
+                startTipsAutoShuffle();
+            }, 1000);
+        }
+    }, 10000);
+    
+    // Add instruction text
+    setTimeout(() => {
+        showDaySelectionHint();
+    }, 1000);
     
     enterFullscreen();
 }
@@ -1526,14 +1738,22 @@ function createTipsOverlay() {
         <!-- Tips Day Selector Only -->
         <div class="tips-day-selector" id="daySelector">
             <img src="Images/Transparent_logo_housing_with_log.png" alt="Housing.com" class="selector-logo" />
-            <div class="day-selector-title">Select Your Learning Day</div>
+            <div class="day-selector-title">
+                <span class="selector-main-title">🎯 Select Your Security Learning Journey 🎯</span>
+                <span class="selector-subtitle">Choose a day to explore 5 amazing security tips!</span>
+            </div>
             <div class="days-grid">
-                ${Array.from({length: 10}, (_, i) => 
-                    `<button class="day-btn day-btn-${i + 1}" onclick="selectDay(${i + 1})">
+                ${Array.from({length: 10}, (_, i) => {
+                    const dayIcons = ['🔐', '🛡️', '🚀', '💻', '🔍', '🌐', '🎯', '🔧', '📊', '🏆'];
+                    return `<button class="day-btn day-btn-${i + 1}" onclick="selectDay(${i + 1})">
+                        <span class="day-icon">${dayIcons[i]}</span>
                         <span class="day-number">Day ${i + 1}</span>
-                        <span class="day-icon"><i class="fas fa-shield-alt"></i></span>
-                    </button>`
-                ).join('')}
+                        <span class="day-tips-count">5 Tips</span>
+                    </button>`;
+                }).join('')}
+            </div>
+            <div class="selector-instruction" id="selectorInstruction">
+                <i class="fas fa-hand-pointer"></i> Click any day to start learning!
             </div>
         </div>
         
@@ -1547,6 +1767,12 @@ function createTipsOverlay() {
         <!-- Team Flash Cards for Tips -->
         <div class="tips-team-flash" id="tipsTeamFlash">
             <!-- Team members will flash here -->
+        </div>
+        
+        <!-- Day Selection Hint -->
+        <div class="day-selection-hint" id="daySelectionHint">
+            <i class="fas fa-lightbulb"></i>
+            <span>Press number keys 1-9 or 0 for Day 10 for quick selection!</span>
         </div>
     `;
     
@@ -1818,6 +2044,37 @@ function createPresentationStructure() {
             </div>
         </div>
         
+        <!-- October Live Demo Banner -->
+        <div class="october-live-banner" id="octoberLiveBanner">
+            <div class="banner-glow"></div>
+            <div class="banner-content">
+                <div class="banner-icon-left">🚨</div>
+                <div class="banner-main">
+                    <div class="banner-title">🔥 OCTOBER EXCLUSIVE: LIVE IN-PERSON DEMOS! 🔥</div>
+                    <div class="banner-subtitle">
+                        <span class="subtitle-static">Join us on</span>
+                        <span class="subtitle-dynamic">ALL FLOORS</span>
+                        <span class="subtitle-static">for mind-blowing security demonstrations!</span>
+                    </div>
+                    <div class="banner-details">
+                        <span class="detail-item"><i class="fas fa-calendar"></i> Every Wednesday & Thursday</span>
+                        <span class="detail-item"><i class="fas fa-clock"></i> Multiple Sessions Daily</span>
+                        <span class="detail-item"><i class="fas fa-users"></i> Interactive & Hands-On</span>
+                    </div>
+                    <div class="banner-cta">
+                        <span class="cta-word">BE THERE</span>
+                        <span class="cta-separator">•</span>
+                        <span class="cta-word">BE AWARE</span>
+                        <span class="cta-separator">•</span>
+                        <span class="cta-word">BE SECURE</span>
+                    </div>
+                </div>
+                <div class="banner-icon-right">🚨</div>
+            </div>
+            <div class="banner-pulse"></div>
+            <div class="banner-particles" id="bannerParticles"></div>
+        </div>
+        
         <!-- Main Presentation Area -->
         <div class="presentation-main">
             <div class="presentation-card" id="presentationCard">
@@ -1846,6 +2103,9 @@ function createPresentationStructure() {
     
     // Create animated particles
     createAnimatedParticles();
+    
+    // Start October banner animations
+    startOctoberBannerAnimations();
 }
 
 // Auto-show features on page load
@@ -1918,6 +2178,22 @@ document.addEventListener('keydown', function(e) {
                 if (currentDay > 1) {
                     selectDay(currentDay - 1);
                 }
+                break;
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+                e.preventDefault();
+                selectDay(parseInt(e.key));
+                break;
+            case '0':
+                e.preventDefault();
+                selectDay(10);
                 break;
         }
     }
@@ -2024,6 +2300,82 @@ function updateTipsBackgroundEffects(department) {
             ease: "power2.inOut"
         });
     });
+}
+
+function showDaySelectionHint() {
+    const hint = document.getElementById('daySelectionHint');
+    if (hint) {
+        hint.classList.add('show');
+        setTimeout(() => {
+            hint.classList.remove('show');
+        }, 5000);
+    }
+}
+
+// October Live Banner Animations
+function startOctoberBannerAnimations() {
+    const banner = document.getElementById('octoberLiveBanner');
+    if (!banner) return;
+    
+    // Create banner particles
+    createBannerParticles();
+    
+    // Initial entrance animation
+    setTimeout(() => {
+        banner.classList.add('show');
+    }, 2000);
+    
+    // Periodic emphasis animation
+    setInterval(() => {
+        banner.classList.add('emphasis');
+        setTimeout(() => {
+            banner.classList.remove('emphasis');
+        }, 3000);
+    }, 15000); // Every 15 seconds
+    
+    // Auto-hide and show cycle
+    setInterval(() => {
+        banner.classList.remove('show');
+        setTimeout(() => {
+            banner.classList.add('show');
+        }, 5000);
+    }, 60000); // Hide for 5 seconds every minute
+    
+    // Rotate dynamic text
+    const dynamicTexts = ['ALL FLOORS', 'EVERY TEAM', 'ALL DEPARTMENTS', 'EVERYONE WELCOME'];
+    let textIndex = 0;
+    const dynamicElement = banner.querySelector('.subtitle-dynamic');
+    
+    if (dynamicElement) {
+        setInterval(() => {
+            textIndex = (textIndex + 1) % dynamicTexts.length;
+            dynamicElement.style.opacity = '0';
+            setTimeout(() => {
+                dynamicElement.textContent = dynamicTexts[textIndex];
+                dynamicElement.style.opacity = '1';
+            }, 300);
+        }, 3000);
+    }
+}
+
+function createBannerParticles() {
+    const container = document.getElementById('bannerParticles');
+    if (!container) return;
+    
+    // Create fire-like particles
+    for (let i = 0; i < 30; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'banner-particle';
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.animationDelay = Math.random() * 3 + 's';
+        particle.style.animationDuration = (3 + Math.random() * 2) + 's';
+        
+        // Random fire colors
+        const colors = ['#ff4757', '#ff6348', '#ffa502', '#ff7675', '#fdcb6e'];
+        particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+        
+        container.appendChild(particle);
+    }
 }
 
 // Incident Alert System
