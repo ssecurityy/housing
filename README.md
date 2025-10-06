@@ -119,11 +119,12 @@ Edit the CSS variables in `styles.css`:
 ## 👥 Team
 
 **Cyber Security Team:**
-- Dhruv Kaalan - Director Cyber Security
-- Rahul Malhotra - Cloud Security Engineer
-- Rupender Singh - Product Security Engineer
-- Nitesh Arora - GRC Compliance Expert
-- Rahul Solanki - Infrastructure Head
+- Dhruv Kalaan - Director - Information Security
+- Rahul Malhotra - Senior Information Security Engineer
+- Rupender Singh - Senior Information Security Engineer
+- Nitesh Arora - Lead GRC Analyst
+- Rahul Solanki - Assistant Manager - IT Operations
+- Dhruv Awasthi - Senior Manager
 
 ## 📞 Support
 
