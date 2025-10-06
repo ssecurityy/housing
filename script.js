@@ -291,39 +291,46 @@ const demoData = {
 // Cyber Team Members
 const cyberTeam = [
     {
-        name: "Dhruv Kaalan",
-        role: "Director Cyber Security",
+        name: "Dhruv Kalaan",
+        role: "Director - Information Security",
         avatar: "DK",
         color: "var(--accent-blue)",
         gradient: "linear-gradient(135deg, #00d4ff, #0066ff)"
     },
     {
         name: "Rahul Malhotra",
-        role: "Cloud Security Engineer",
+        role: "Senior Information Security Engineer",
         avatar: "RM",
         color: "var(--accent-green)",
         gradient: "linear-gradient(135deg, #00ff88, #00cc66)"
     },
     {
         name: "Rupender Singh",
-        role: "Product Security Engineer",
+        role: "Senior Information Security Engineer",
         avatar: "RS",
         color: "var(--accent-purple)",
         gradient: "linear-gradient(135deg, #8b5cf6, #6a4c93)"
     },
     {
         name: "Nitesh Arora",
-        role: "GRC Compliance Expert",
+        role: "Lead GRC Analyst",
         avatar: "NA",
         color: "var(--accent-orange)",
         gradient: "linear-gradient(135deg, #ffa726, #ff6600)"
     },
     {
         name: "Rahul Solanki",
-        role: "Infrastructure Head",
+        role: "Assistant Manager - IT Operations",
         avatar: "RS2",
         color: "var(--accent-red)",
         gradient: "linear-gradient(135deg, #ff4757, #ee5a6f)"
+    },
+    {
+        name: "Dhruv Awasthi",
+        role: "Senior Manager",
+        avatar: "DA",
+        color: "var(--accent-cyan)",
+        gradient: "linear-gradient(135deg, #00e5ff, #00acc1)"
     }
 ];
 
